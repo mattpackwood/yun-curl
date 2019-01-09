@@ -1,6 +1,6 @@
 #include <Bridge.h>
 
-String BACKEND_URL = "http://yoururl.com/yourphp.php";
+String BACKEND_URL = "https://j1iwch2pye.execute-api.us-west-2.amazonaws.com/test/";
 Process p;
 
 void setup() {
