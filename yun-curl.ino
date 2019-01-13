@@ -1,3 +1,4 @@
+//Program to drive 8x8 display from web data
 #include <Bridge.h>
 
 String BACKEND_URL = "https://j1iwch2pye.execute-api.us-west-2.amazonaws.com/test/";
@@ -41,6 +42,6 @@ void doCurl(int _value) {
   process.addParameter("-d");
   process.addParameter("val="+String(_value));
   process.addParameter(BACKEND_URL);
-  
+
   process.runAsynchronously();
 }
