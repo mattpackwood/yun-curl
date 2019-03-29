@@ -1,4 +1,4 @@
-//Program to drive 8x8 display from web data
+//Program to drive 8x8 display from web dataI need to set-up the data source...
 #include <Bridge.h>
 
 String BACKEND_URL = "https://j1iwch2pye.execute-api.us-west-2.amazonaws.com/test/";
