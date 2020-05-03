@@ -1,2 +1,2 @@
 # Yun-Curl
-Testing Curl Functions on the Arduino Yun
+Testing Curl Functions on the Arduino Yun, the idea is to have a small display in the house that can be used to display info, the issie is where do I host / pst the data to...
